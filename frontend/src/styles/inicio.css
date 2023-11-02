@@ -1,0 +1,50 @@
+#titulo {
+    background-color: rgb(62, 62, 163);
+    color: white;
+    width: 100%;
+}
+
+#titulo h1 {
+    font-size: 5rem;
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+}
+
+#titulo h3{
+    text-align: center;
+    padding: 0px 0px 70px 0px;
+}
+
+.container #p1{
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 20px 0 0 0;
+}
+
+.container #p2{
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 10px 0 20px 0;
+}
+
+#div2{
+    background-color: white;
+    border-radius: 5px;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(216, 216, 216);
+}
+.card{
+    width: 16rem;
+    /* width: 25%; Ancho de cada tarjeta (4 tarjetas por fila) */
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+}
+
+#cards_inicio {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas pasen a la siguiente fila si no hay suficiente espacio */
+    justify-content: space-between; /* Ajusta el espacio entre las tarjetas */
+  }
+  

@@ -9,13 +9,13 @@ function App() {
   return (
     <>
       <Menu></Menu>
-      <div className='container'>
+      {/* <div className='container'> */}
         <Routes>
           <Route path='/' element={<Inicio></Inicio>}></Route>
           <Route path='/productos' element={<Productos></Productos>}></Route>
           <Route path='/nosotros' element={<Nosotros></Nosotros>}></Route>
         </Routes>
-      </div>
+      {/* </div> */}
     </>
   );
 }
