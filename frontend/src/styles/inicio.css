@@ -10,41 +10,68 @@
     padding: 40px 0px 10px 0px;
 }
 
-#titulo h3{
+#titulo h3 {
     text-align: center;
     padding: 0px 0px 70px 0px;
 }
 
-.container #p1{
+.container #p1 {
     text-align: center;
     font-size: 1.4rem;
     padding: 20px 0 0 0;
 }
 
-.container #p2{
+.container #p2 {
     text-align: center;
     font-size: 1.4rem;
     padding: 10px 0 20px 0;
 }
 
-#div2{
+#div2 {
     background-color: white;
     border-radius: 5px;
     padding: 0;
 }
 
-body{
+body {
     background-color: rgb(216, 216, 216);
 }
-.card{
+
+.card {
     width: 16rem;
     /* width: 25%; Ancho de cada tarjeta (4 tarjetas por fila) */
-    margin-bottom: 20px; /* Espacio entre las tarjetas */
+    margin-bottom: 20px;
+    /* Espacio entre las tarjetas */
 }
 
 #cards_inicio {
     display: flex;
-    flex-wrap: wrap; /* Permite que las tarjetas pasen a la siguiente fila si no hay suficiente espacio */
-    justify-content: space-between; /* Ajusta el espacio entre las tarjetas */
-  }
-  
+    flex-wrap: wrap;
+    /* Permite que las tarjetas pasen a la siguiente fila si no hay suficiente espacio */
+    justify-content: space-between;
+    /* Ajusta el espacio entre las tarjetas */
+
+}
+
+.envio span {
+    font-size: 5rem;
+}
+.envio{
+    text-align: center;
+}
+
+.negrita{
+    font-weight: 700;
+}
+
+.card-text{
+    line-height: 0.5;
+}
+
+.card-title{
+    /* line-height:  3; */
+    padding: 0 0 10px 0;
+}
+.precio{
+    padding: 5px 0;
+}
