@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles/inicio.css';
+import { Link } from 'react-router-dom';
 
 export default function Inicio() {
   return (
@@ -12,7 +13,7 @@ export default function Inicio() {
         <p id="p2">Si no encontras uno que te guste podes pedir el tuyo personalizado</p>
       </div>
       <div className='container' id="cards_inicio">
-        
+
         <div className="card" >
           <img src="./assets/img/luffy_g5.jpg" className="card-img-top" alt="luffy_g5" />
           <div className="card-body">
@@ -57,6 +58,12 @@ export default function Inicio() {
           </div>
         </div>
 
+      </div>
+
+      <div className='container' id="ver_mas">
+        <Link to="/productos">
+        <button type="button" className="btn btn-info">Ver mas →</button>
+        </Link>
       </div>
 
       <div className='envio'>

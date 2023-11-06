@@ -58,6 +58,7 @@ body {
 }
 .envio{
     text-align: center;
+    padding: 130px;
 }
 
 .negrita{
@@ -74,4 +75,8 @@ body {
 }
 .precio{
     padding: 5px 0;
+}
+
+#ver_mas{
+    text-align: right;
 }
