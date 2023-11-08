@@ -12,6 +12,7 @@ export default function Inicio() {
         <p id="p1">Tenemos todo tipo de cuadros de anime y manga realizados a mano</p>
         <p id="p2">Si no encontras uno que te guste podes pedir el tuyo personalizado</p>
       </div>
+      <h3 className='container' id="h3">Algunos de nuestros cuadros:</h3>
       <div className='container' id="cards_inicio">
 
         <div className="card" >

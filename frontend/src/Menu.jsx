@@ -21,8 +21,8 @@ export default function Menu() {
                                 <Link to="/nosotros" className="nav-link active">Sobre Nosotros</Link>
                             </li>
                         </ul>
-                        <a className="nav-link active" href='https://wa.me/5493743448587' target='blank'>Contáctame</a>
                     </div>
+                    <a className="nav-link active" href='https://wa.me/5493743448587' target='blank'>Contáctame</a>
 
                 </div>
             </nav>

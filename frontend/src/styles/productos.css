@@ -1,0 +1,16 @@
+#prod{
+    width: 500px ;
+}
+
+.imagen{
+    max-width: 200px;
+}
+
+#titulo_prod{
+    background-color: rgb(62, 62, 163);
+    color: white;
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+    padding: 40px 0px;
+}
