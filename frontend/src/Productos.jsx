@@ -11,16 +11,23 @@ export default function Productos() {
         <ul className="list-group">
           <li className="list-group-item">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <img src="./assets/img/luffy_g5.jpg" alt="Luffy Gear 5" className='imagen' />
               </div>
-              <div className="col-md-8">
-                <h5 className="mt-0">Luffy Gear 5</h5>
-                <p>Descripción del Producto 1.</p>
-                <p>$19.99</p>
+              <div className="col-md-7" id="info">
+                <h5 className="mt-0" id="tit_prod">Luffy Gear 5</h5>
+                <p>Cuadro de Monkey D. Luffy Gear 5 hecho con acuarelas</p>
+                <p><span className='negrita'>Anime:</span> One Piece</p>
+                <p><span className='negrita'>Tamaño:</span> A5</p>
+                <p><span className='negrita'>Medidas:</span> 14,8cm x 21cm</p>
+              </div>
+              <div className="col-md-2" id="precio">
+                <p>$$$$$</p>
+                <button className='btn btn-info'>Comprar</button>
               </div>
             </div>
           </li>
+
           <li className="list-group-item">
             <div className="row">
               <div className="col-md-4">
@@ -33,6 +40,7 @@ export default function Productos() {
               </div>
             </div>
           </li>
+
           <li className="list-group-item">
             <div className="row">
               <div className="col-md-4">

@@ -1,12 +1,13 @@
-#prod{
-    width: 500px ;
+#prod {
+    width: 500px;
 }
 
-.imagen{
+.imagen {
     max-width: 200px;
+    padding: 5px;
 }
 
-#titulo_prod{
+#titulo_prod {
     background-color: rgb(62, 62, 163);
     color: white;
     width: 100%;
@@ -14,3 +15,23 @@
     text-align: center;
     padding: 40px 0px;
 }
+
+#tit_prod {
+    padding: 10px 0;
+    font-size: 1.6rem;
+}
+
+#precio {
+    display: flex;
+    justify-Content: center;
+    align-Items: center;
+    height: '100vh';
+    flex-Direction: column;
+}
+
+#info {
+    border-right: 2px solid #ccc;
+    padding-right: 15px;
+    /* height: 200px; */
+}
+
