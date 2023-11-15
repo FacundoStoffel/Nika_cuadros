@@ -3,6 +3,14 @@ import './styles/inicio.css';
 import { Link } from 'react-router-dom';
 
 export default function Inicio() {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // Hace que el desplazamiento sea suave
+    });
+  }
+
   return (
     <><div id="titulo">
       <h1>Nika cuadros</h1>
@@ -63,7 +71,7 @@ export default function Inicio() {
 
       <div className='container' id="ver_mas">
         <Link to="/productos">
-        <button type="button" className="btn btn-info">Ver mas →</button>
+          <button type="button" className="btn btn-info" onClick={scrollToTop}>Ver mas →</button>
         </Link>
       </div>
 

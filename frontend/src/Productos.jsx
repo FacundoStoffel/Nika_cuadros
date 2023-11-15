@@ -22,37 +22,56 @@ export default function Productos() {
                 <p><span className='negrita'>Medidas:</span> 14,8cm x 21cm</p>
               </div>
               <div className="col-md-2" id="precio">
-                <p>$$$$$</p>
-                <button className='btn btn-info'>Comprar</button>
+                <p>$5000</p>
+                <a href="https://api.whatsapp.com/send?phone=5493743448587&text=Hola,%20estoy%20interesado%20en%20comprar%20el%20Luffy%20Gear5%20por%20$5000.%20[https://i.imgur.com/MZeRSWX.jpg]" target="_blank">
+                  <button className='btn btn-info'>Comprar</button>
+                </a> 
               </div>
             </div>
           </li>
 
           <li className="list-group-item">
             <div className="row">
-              <div className="col-md-4">
-                <img src="./assets/img/gojo.jpg" alt="Producto 2" className='imagen' />
+              <div className="col-md-3">
+                <img src="./assets/img/gojo.jpg" alt="Gojo Satoru" className='imagen' />
               </div>
-              <div className="col-md-8">
-                <h5 className="mt-0">Producto 2</h5>
-                <p>Descripción del Producto 2.</p>
-                <p>$29.99</p>
+              <div className="col-md-7" id="info">
+                <h5 className="mt-0" id="tit_prod">Gojo Satoru</h5>
+                <p>Cuadro de Gojo Satoru estilo manga en blanco y negro</p>
+                <p><span className='negrita'>Anime:</span> Jujutsu Kaise</p>
+                <p><span className='negrita'>Tamaño:</span> A4</p>
+                <p><span className='negrita'>Medidas:</span> 21cm x 30cm</p>
+              </div>
+              <div className="col-md-2" id="precio">
+                <p>$5000</p>
+                <a href="https://api.whatsapp.com/send?phone=5493743448587&text=Hola,%20estoy%20interesado%20en%20comprar%20el%20Gojo%20Satoru%20por%20$5000.%20[https://i.imgur.com/LChO5GQ.jpg]" target="_blank">
+                  <button className='btn btn-info'>Comprar</button>
+                </a> 
               </div>
             </div>
           </li>
 
           <li className="list-group-item">
             <div className="row">
-              <div className="col-md-4">
-                <img src="./assets/img/toji.jpg" alt="Producto 3" className='imagen' />
+              <div className="col-md-3">
+                <img src="./assets/img/toji.jpg" alt="Toji Fushiguro" className='imagen' />
               </div>
-              <div className="col-md-8">
-                <h5 className="mt-0">Producto 3</h5>
-                <p>Descripción del Producto 3.</p>
-                <p>$39.99</p>
+              <div className="col-md-7" id="info">
+                <h5 className="mt-0" id="tit_prod">Toji Fushiguro</h5>
+                <p>Cuadro de Toji Fushiguro estilo manga en blanco y negro</p>
+                <p><span className='negrita'>Anime:</span> Jujutsu Kaise</p>
+                <p><span className='negrita'>Tamaño:</span> A4</p>
+                <p><span className='negrita'>Medidas:</span> 21cm x 30cm</p>
+              </div>
+              <div className="col-md-2" id="precio">
+                <p>$5000</p>
+                <a href="https://api.whatsapp.com/send?phone=5493743448587&text=Hola,%20estoy%20interesado%20en%20comprar%20el%20Toji%20Fushiguro%20por%20$5000.%20[https://i.imgur.com/acRsEXS.jpg]" target="_blank">
+                  <button className='btn btn-info'>Comprar</button>
+                </a> 
               </div>
             </div>
           </li>
+
 
         </ul>
       </div>
