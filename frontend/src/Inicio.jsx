@@ -71,7 +71,7 @@ export default function Inicio() {
 
       <div className='container' id="ver_mas">
         <Link to="/productos">
-          <button type="button" className="btn btn-info" onClick={scrollToTop}>Ver mas →</button>
+          <button type="button" className="btn btn-custom" onClick={scrollToTop}>Ver mas →</button>
         </Link>
       </div>
 

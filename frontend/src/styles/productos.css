@@ -5,6 +5,17 @@
 .imagen {
     max-width: 200px;
     padding: 5px;
+    transition: transform 0.3s;
+
+}
+
+.imagen:hover {
+    transform: scale(1.1); /* Puedes ajustar el valor para la escala deseada */
+  }
+
+#imagen_div{
+    align-Items: center;
+    display: flex;
 }
 
 #titulo_prod {
@@ -33,5 +44,22 @@
     border-right: 2px solid #ccc;
     padding-right: 15px;
     /* height: 200px; */
+}
+
+#btn-flecha{
+    position: fixed;
+    right: 20px; 
+    bottom: 20px;
+}
+
+.btn-custom{
+    background-color:  rgb(62, 62, 163); /* Color personalizado en formato hexadecimal */
+  color: #ffffff; /* Color del texto en formato hexadecimal */
+  /* Puedes ajustar otros estilos según tus preferencias */
+}
+
+.btn-custom:hover{
+    background-color: rgb(71, 71, 197);
+    color: #ffffff;
 }
 
