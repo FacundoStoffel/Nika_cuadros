@@ -44,6 +44,11 @@ body {
     /* Espacio entre las tarjetas */
 }
 
+.card:hover{
+    box-shadow: 4px 3px  rgba(175, 175, 175, 0.5); 
+}
+
+
 #cards_inicio {
     display: flex;
     flex-wrap: wrap;
