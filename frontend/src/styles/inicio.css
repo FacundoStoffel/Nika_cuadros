@@ -34,7 +34,7 @@
 }
 
 body {
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(233, 233, 233);
 }
 
 .card {
@@ -64,7 +64,14 @@ body {
 .envio{
     text-align: center;
     padding: 130px;
+    display: flex;
+    justify-content: center; /* Otra opción: space-around o center */
 }
+
+.envio-item {
+    text-align: center; /* Alinea el texto al centro si es necesario */
+margin: 0 100px;
+  }
 
 .negrita{
     font-weight: 700;

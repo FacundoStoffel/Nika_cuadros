@@ -76,11 +76,20 @@ export default function Inicio() {
       </div>
 
       <div className='envio'>
-        <span className="material-symbols-outlined">
-          local_shipping
-        </span>
-        <p>Envios a todo el pais</p>
+        <div className='envio-item'>
+          <span className="material-symbols-outlined">
+            local_shipping
+          </span>
+          <p>Envios a todo el pais</p>
+        </div>
+        <div className='envio-item'>
+          <span class="material-symbols-outlined">
+            credit_card
+          </span>
+          <p>Aceptamos todo <br></br>tipo de tranferencias</p>
+        </div>
       </div>
+
     </>
   )
 }
