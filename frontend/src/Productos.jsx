@@ -15,7 +15,7 @@ export default function Productos() {
       <h1 id='titulo_prod'>Productos</h1>
 
 
-      <div className="container">
+      <div className="container productos-div">
         <ul className="list-group">
           <li className="list-group-item">
             <div className="row">

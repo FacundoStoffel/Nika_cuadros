@@ -6,7 +6,7 @@ export default function Nosotros() {
     <>
       <h1 id='titulo_prod'>Sobre Nosotros</h1>
       <div  id='nosotros-div'>
-        <h3>¡Bienvenidxs a Nika Cuadros! Donde Cada Cuadro es Pura Magia Hecha a Mano 🎨✨</h3>
+        <h3>¡Bienvenidos a Nika Cuadros! Donde Cada Cuadro es Pura Magia Hecha a Mano 🎨✨</h3>
         <p>En Nika Cuadros, no somos solo una página, ¡somos un viaje artístico hecho con amor y manos hábiles! Aquí en el estudio, cada cuadro es un pedacito de nosotros, una obra maestra única que nace de nuestra pasión por el arte y el estilo anime.
         </p>
 

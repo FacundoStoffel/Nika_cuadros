@@ -1,0 +1,32 @@
+#insta-img, #wpp-img{
+    width: 1rem;
+}
+
+.ul-footer {
+    list-style: none;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+li a img{
+    margin: 0.4rem;
+}
+
+.ul-footer li img{
+    width: 3rem;
+    margin: 0.5rem;
+}
+
+#footer-derechos{
+    font-size: 0.9rem;
+    
+}
+
+.footer-container {
+    justify-content: space-around; /* Distribuir elementos uniformemente */
+    align-items: center; /* Centrar verticalmente */
+    text-align: center; /* Centrar el texto */
+    padding: 20px;
+    background-color: rgb(211, 210, 210);
+}

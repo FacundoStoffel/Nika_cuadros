@@ -4,7 +4,10 @@
     margin: 0 10px 0 5px;
     box-shadow: 2px 2px  rgba(175, 175, 175, 0.5); 
 }
+.link:hover{
+    color: rgb(99, 99, 99) !important;
+}
 
-#categorias{
-    text-align: center !important;
+.mx-auto{
+    margin-left: 300px !important;
 }

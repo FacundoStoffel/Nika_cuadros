@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Inicio from './Inicio';
 import Productos from './Productos';
 import Nosotros from './Nosotros';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/nosotros' element={<Nosotros></Nosotros>}></Route>
         </Routes>
       {/* </div> */}
+      <Footer></Footer>
     </>
   );
 }
